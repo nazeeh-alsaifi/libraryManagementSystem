@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -13,6 +14,7 @@ public class BookService {
     @Autowired
     private BookRepository bookRepository;
 
+    @Cacheable("books")
     public List<Book> getAllBooks() {
         return bookRepository.findAll();
 
