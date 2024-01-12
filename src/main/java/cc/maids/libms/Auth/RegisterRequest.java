@@ -1,8 +1,6 @@
 package cc.maids.libms.Auth;
 
 import cc.maids.libms.User.Role;
-import jakarta.persistence.EnumType;
-import jakarta.persistence.Enumerated;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
