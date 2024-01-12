@@ -23,9 +23,7 @@
 
 ## Problems with this solution
 1. when Registering, can't use the same username in two consecutive requests. **username uniqueness is not validated and handled**.
-1. caching
 1. test coverage (need testing)
-1. logging
 1. exception handling all cases (create custom domain related exceptions)
 1. extract jwt secret_key and expiration to properties
 1. implement jwt refresh token and store tokens in db with revoke tokens functionality
