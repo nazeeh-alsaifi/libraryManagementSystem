@@ -26,5 +26,6 @@
 1. test coverage (need testing)
 1. exception handling all cases (create custom domain related exceptions)
 1. extract jwt secret_key and expiration to properties
-1. implement jwt refresh token and store tokens in db with revoke tokens functionality
+1. implement jwt refresh token and store tokens in db with revoke tokens functionality, 
+1. locking user on number of attempts with wrong credentials & Rate Limiter
 
