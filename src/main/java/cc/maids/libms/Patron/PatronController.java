@@ -63,7 +63,7 @@ public class PatronController {
             return ResponseEntity.notFound().build();
         }
         patronService.deletePatron(id);
-        return ResponseEntity.noContent().build();
+        return ResponseEntity.ok().build();
     }
     
 

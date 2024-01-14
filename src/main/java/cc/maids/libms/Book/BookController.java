@@ -61,7 +61,7 @@ public class BookController {
             return ResponseEntity.notFound().build();
         }
         bookService.deleteBook(id);
-        return ResponseEntity.noContent().build();
+        return ResponseEntity.ok().build();
     }
 
 
